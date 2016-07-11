@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+
+    tools:context=".Fragment4Boxes">
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/GridLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:padding="20dp"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        tools:context=".GridXMLActivity" >
+        <Button
+            android:layout_margin="20dp"
+            android:id="@+id/button1"
+            android:layout_gravity="left|top"
+            android:background="#64dd17" />
+
+        <Button
+            android:layout_margin="20dp"
+            android:layout_gravity="left|top"
+            android:background="#1de9b6" />
+
+        <Button
+            android:layout_margin="20dp"
+            android:layout_gravity="left|top"
+            android:background="#d500f9" />
+
+        <Button
+            android:layout_margin="20dp"
+            android:id="@+id/button4"
+            android:layout_gravity="left|top"
+            android:background="#ffeb3b" />
+    </GridLayout>
+
+</RelativeLayout>
